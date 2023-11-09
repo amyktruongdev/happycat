@@ -1,7 +1,8 @@
 #btn{
     width: 500px;
     height: 500px;
-    border-width: 4px;
+    border-width: 10px;
+    border-color: rgb(243, 15, 194);
     margin: 0;
     position: absolute;
     top: 50%;
@@ -9,4 +10,8 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border-radius: 50%;
+}
+
+body {
+    background-color: pink;
 }
